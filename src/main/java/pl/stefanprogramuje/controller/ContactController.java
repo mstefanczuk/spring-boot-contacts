@@ -28,7 +28,7 @@ public class ContactController {
         return "home";
     }
 
-    @RequestMapping(method = RequestMethod.PUT)
+    @RequestMapping(method = RequestMethod.POST)
     public String submit(Contact contact) {
         contactRepository.save(contact);
         return "redirect:/";
