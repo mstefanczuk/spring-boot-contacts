@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import pl.stefanprogramuje.domain.Contact;
+import pl.stefanprogramuje.domain.repository.ContactRepository;
 
 import java.util.List;
 import java.util.Map;
